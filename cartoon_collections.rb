@@ -3,6 +3,7 @@ dw = ["Doc", "Dopey", "Bashful", "Grumpy"]
 
 def roll_call_dwarves(arr)# code an argument here
   # Your code here
+  arr.each
 end
 
 def summon_captain_planet# code an argument here
