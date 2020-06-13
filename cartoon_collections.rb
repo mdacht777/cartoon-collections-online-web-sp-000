@@ -9,8 +9,8 @@ end
 
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 def summon_captain_planet(arr)# code an argument here
-  arr.map{ |n| "#{n.capitalize}!" }
-  arr
+  arr2=arr.map{ |n| "#{n.capitalize}!" }
+  arr2
 end
 
 def long_planeteer_calls# code an argument here
