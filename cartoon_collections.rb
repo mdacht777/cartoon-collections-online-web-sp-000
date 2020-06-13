@@ -9,7 +9,7 @@ end
 
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 def summon_captain_planet(arr)# code an argument here
-  arr.map{ |n| "#{n}!" }
+  arr.map{ |n| "#{n.upcase}!" }
   arr
 end
 
