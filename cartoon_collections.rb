@@ -4,7 +4,7 @@ dw = ["Doc", "Dopey", "Bashful", "Grumpy"]
 def roll_call_dwarves(arr)# code an argument here
   # Your code here
   arr.each_with_index { |item, index|
-  puts "#{index}. #{item}"
+  puts "#{index+1}. #{item}"
 }
 end
 
