@@ -9,8 +9,8 @@ end
 
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 def summon_captain_planet(arr)# code an argument here
-  arr.each_with_index { |item, index|
-  puts "#{index+1}. #{item}"
+  arr.map{ |n| "#{n}!" }
+  arr
 end
 
 def long_planeteer_calls# code an argument here
