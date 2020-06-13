@@ -16,7 +16,6 @@ end
 def long_planeteer_calls(arr)# code an argument here
   arr.each_with_index { |item, index|
    if item.length>4
-     puts item
      return true
    end
   }
@@ -26,6 +25,9 @@ end
 def find_the_cheese(arr)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  arr1=cheese_types.include(arr)
-  puts arr1
+  arr.each_with_index { |item, index|
+   if item.length>4
+     return true
+   end
+  }
 end
