@@ -15,8 +15,10 @@ end
 
 def long_planeteer_calls(arr)# code an argument here
   arr.each_with_index { |item, index|
-  puts "#{index+1}. #{item}"
-}
+   if item.length>=4
+     puts item
+   end
+  }
 end
 
 def find_the_cheese# code an argument here
