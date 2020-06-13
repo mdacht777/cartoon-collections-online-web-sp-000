@@ -26,5 +26,6 @@ end
 def find_the_cheese(arr)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  puts cheese_types.union(arr)
+  arr1=cheese_types.union(arr)
+  puts arr1
 end
