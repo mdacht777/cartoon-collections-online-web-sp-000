@@ -27,8 +27,7 @@ def find_the_cheese(arr)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   arr.each_with_index { |item, index|
    if cheese_types.include(item)
-     return true
+     return item
    end
   }
-  false
 end
